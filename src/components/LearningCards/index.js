@@ -1,3 +1,4 @@
+import loadMore from './../../images/load-more-icon.svg'
 import './index.scss';
 
 export const LearningCards = () => {
@@ -10,8 +11,8 @@ export const LearningCards = () => {
           <h3 className="learning-card__title">19 бесплатных кистей в Photoshop: для художников, дизайнеров и фотографов</h3>
           <p className="learning-card__description">Хотите вырезать с фотографии пушистого котика, нарисовать на фоне зомби-апокалипсис и добавить в картину реалистичный снегопад? Вам помогут кисти!</p>
         </a>
-        <a className="learning-card" href="https://skillbox.ru/media/design/19_besplatnykh_kistey_v_photoshop_dlya_khudozhnikov_dizaynerov_i_fotografov/" target="_blank">
-          <span className="learning-card__badge learning-card__badge--orange">дизайн</span>
+        <a className="learning-card" href="https://skillbox.ru/media/design/chto_takoe_tsvetovoy_krug_ittena/" target="_blank">
+          <span className="learning-card__badge learning-card__badge--green">маркетинг</span>
           <img className="learning-card__img" src="https://248006.selcdn.ru/main/iblock/fde/fde237ceb5b2e5e2bd9efd8c25493fe6/f09d945e8e7f10a361445f133e800997.png.webp" />
           <h3 className="learning-card__title">Что такое цветовой круг Иттена и как дизайнеры подбирают цвета с его помощью</h3>
           <p className="learning-card__description">Каждый [охотник] желает знать, как гармонично сочетать оттенки. Пробуем магию цветового круга.</p>
@@ -21,12 +22,6 @@ export const LearningCards = () => {
           <img className="learning-card__img" src="https://248006.selcdn.ru/main/iblock/10d/10d95199eb819959a77d196a4a5e466f/1ce188b96cbec8a6e78b9ff5a23571b7.png.webp" />
           <h3 className="learning-card__title">Почему у вас не получается рисовать?</h3>
           <p className="learning-card__description">Почему мы начинаем учиться рисовать, но быстро разочаровываемся в себе и бросаем? Ответ — в самом подходе.</p>
-        </a>
-        <a className="learning-card" href="https://skillbox.ru/media/design/19_besplatnykh_kistey_v_photoshop_dlya_khudozhnikov_dizaynerov_i_fotografov/" target="_blank">
-          <span className="learning-card__badge learning-card__badge--orange">дизайн</span>
-          <img className="learning-card__img" src="https://248006.selcdn.ru/main/iblock/807/807efebeee6491ac950000590e890129/744508de8c5aebe87f9bb7346ac43d57.png.webp" />
-          <h3 className="learning-card__title">19 бесплатных кистей в Photoshop: для художников, дизайнеров и фотографов</h3>
-          <p className="learning-card__description">Хотите вырезать с фотографии пушистого котика, нарисовать на фоне зомби-апокалипсис и добавить в картину реалистичный снегопад? Вам помогут кисти!</p>
         </a>
         <a className="learning-card" href="https://skillbox.ru/media/design/15_sovetskikh_plakatov_s_interesnymi_dizaynerskimi_priyemami/" target="_blank">
           <span className="learning-card__badge learning-card__badge--orange">дизайн</span>
@@ -82,7 +77,7 @@ export const LearningCards = () => {
           <h3 className="learning-card__title">Зачем нужен Adobe Illustrator: разбираемся с функциями векторного редактора</h3>
           <p className="learning-card__description">Название программы сбивает с толку: на самом деле она пригодится не только иллюстраторам.</p>
         </a>
-        <a className="learning-card" href="https://skillbox.ru/media/design/chto_takoe_tsvetovye_modeli_i_kakimi_oni_byvayut/" target="_blank">
+        {/* <a className="learning-card" href="https://skillbox.ru/media/design/chto_takoe_tsvetovye_modeli_i_kakimi_oni_byvayut/" target="_blank">
           <span className="learning-card__badge learning-card__badge--orange">дизайн</span>
           <img className="learning-card__img" src="https://248006.selcdn.ru/main/iblock/563/5639ca97f249b6d116ea4ec1786425d7/62647d4a550ac1102fddd09134a72729.png.webp" />
           <h3 className="learning-card__title">Что такое цветовые модели и какими они бывают</h3>
@@ -93,8 +88,9 @@ export const LearningCards = () => {
           <img className="learning-card__img" src="https://248006.selcdn.ru/main/iblock/e3d/e3d3180209b426059cce04cd50587ef8/da9fd352a1d52241b60c58cc5b5466a3.png.webp" />
           <h3 className="learning-card__title">Какими бывают лицензии на изображения</h3>
           <p className="learning-card__description">Соблюдение авторских прав — скучная часть творческой работы, без которой не обойтись. Разбираемся в лицензиях раз и навсегда.</p>
-        </a>
+        </a> */}
       </div>
+      <button className="posts-upload-btn">Загрузить еще</button>
     </section>
   );
 }

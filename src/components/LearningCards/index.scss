@@ -1,5 +1,5 @@
 .learning-cards {
-  padding: 20px 0;
+  padding: 30px 0;
 
   & .container {
     display: flex;
@@ -33,19 +33,71 @@
 
   &__badge {
       position: absolute;
-      left: 20px;
-      top: 20px;
+      left: 24px;
+      top: 24px;
       display: inline-block;
-      padding: 12px 20px 10px 20px;
+      padding: 10px 16px 10px 16px;
       color: #fff;
       text-transform: uppercase;
-      font-size: 14px;
+      font-size: 12px;
       font-weight: 500;
+      letter-spacing: 1.3px;
 
       &--orange {
         color: #fff;
-        background-color: #ef8337;
-        border-radius: 10px;
+        background-color: #e9911a;
+        border-radius: 8px;
       }
+
+      &--green {
+        color: #fff;
+        background-color: #10c8a0;
+        border-radius: 8px;
+      }
+    }
+}
+
+.posts-upload-btn {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-left: 25px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    width: 250px;
+    height: 56px;
+    cursor: pointer;
+    transition: all .3s;
+    background-color: #fff;
+    font-size: 18px;
+
+    &:hover {
+      color: #fff;
+      background-color: #3d3bff;
+      border-color: #3d3bff;
+
+      &::before {
+        color: #fff;
+        background: url(../../images/load-more-icon-white.svg) no-repeat center;
+      }
+    }
+
+    &__icon {
+      margin-right: 5px;
+    }
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 50px;
+      background: url(../../images/load-more-icon.svg) no-repeat center;
+      background-size: cover;
+      width: 15px;
+      height: 13px;
     }
 }
