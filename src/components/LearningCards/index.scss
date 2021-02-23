@@ -22,17 +22,19 @@
   }
 
   &__title {
-      color: #000;
-      letter-spacing: -.5px;
-      line-height: 24px;
-      font-size: 18px;
+    color: #000;
+    line-height: 24px;
+    font-size: 18px;
+    font-stretch: 100%;
+    -webkit-font-smoothing: auto;
+    letter-spacing: -.4px;
   }
 
   &__description {
-      color: #676363;
-      line-height: 26px;
-      font-size: 15px;
-      letter-spacing: -.5px;
+    color: #6b6b6b;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
   }
 
   &__badge {
@@ -66,7 +68,7 @@
     position: relative;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 50px auto 70px;
     padding-left: 25px;
     border-radius: 10px;
     border: 1px solid #000;

@@ -45,3 +45,12 @@
     line-height: 34px;
   }  
 }
+
+
+@media (max-width: 640px) {
+  .app-footer {
+    &__payments-list {
+      margin: 25px 0;
+    }
+  }
+}
