@@ -23,12 +23,16 @@
 
   &__title {
       color: #000;
+      letter-spacing: -.5px;
       line-height: 24px;
+      font-size: 18px;
   }
 
   &__description {
       color: #676363;
-      line-height: 20px;
+      line-height: 26px;
+      font-size: 15px;
+      letter-spacing: -.5px;
   }
 
   &__badge {

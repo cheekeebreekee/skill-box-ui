@@ -5,7 +5,7 @@ import visaVerified from './../../images/visa-verified.svg';
 import visa from './../../images/visa.svg';
 import logoWhite from './../../images/logo-white.svg';
 import './index.scss';
-
+import React from "react";
 
 export const Footer = () => {
   return (

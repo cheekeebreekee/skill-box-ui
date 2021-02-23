@@ -1,5 +1,6 @@
 import loadMore from './../../images/load-more-icon.svg'
 import './index.scss';
+import React from "react";
 
 export const LearningCards = () => {
   return (
